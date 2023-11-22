@@ -1,0 +1,16 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    width: 100vw;
+    height: fit-content;
+    overflow-x: hidden;
+}
+
+body{
+    width: 100%;
+    height: fit-content;
+    padding: 2rem;
+}

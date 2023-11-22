@@ -1,0 +1,35 @@
+.weather_card{
+    width: 25rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 1rem auto;
+    box-shadow: 1px 1px 1px gray;
+}
+.weather_card div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.weather_card .weather_data h4{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    font-weight: 300;
+    text-decoration: underline;
+}
+.weather_card .icon img{
+    width: auto;
+    height: 8rem;
+}
+.weather_card .weather_data table{
+    width: 100%;
+}
+.weather_card .weather_data td:nth-child(1){
+    text-transform: capitalize;
+}
+.weather_card .weather_data td:nth-child(2){
+    text-align: right;
+}
