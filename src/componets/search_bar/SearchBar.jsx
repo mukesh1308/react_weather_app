@@ -1,13 +1,8 @@
 import { useState } from "react";
 import { AsyncPaginate } from "react-select-async-paginate";
+import key from "../../key";
 
-const API_options = {
-	method: 'GET',
-	headers: {
-		'X-RapidAPI-Key': '0e612ad306msh6aa68df5d3c94d3p1d4e41jsn5c2ea18df9ba',
-		'X-RapidAPI-Host': 'wft-geo-db.p.rapidapi.com'
-	}
-}
+const API_options = key.geoDB;
 
 const SearchBar=({onSearch})=>{
     const[search,setSearch]=useState(null);

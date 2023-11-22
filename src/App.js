@@ -3,8 +3,9 @@ import WeatherCard from './componets/weather_card/WeatherCard';
 import ForeCast from './componets/forecast/ForeCast';
 import './App.css';
 import { useState } from 'react';
+import key from "./key"
 
-const weatherAPI_key="4d0356a1af6e5bafd37d4cc08df2fe1d";
+const weatherAPI_key=key.weather;
 
 function App() {
     const[weatherData,setWeatherData]=useState(null);
